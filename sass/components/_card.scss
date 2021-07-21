@@ -3,7 +3,7 @@
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  height: 52rem;
+  height: 53rem;
 
   &__side {
     background-color: orangered;
@@ -12,7 +12,7 @@
     font-size: 2rem;
     top: 0;
     left: 0;
-    height: 52rem;
+    height: 53rem;
     width: 100%;
     backface-visibility: hidden;
     border-radius: 3px;
@@ -144,5 +144,26 @@
         }
       }
     }
+  }
+  &__cta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center;
+  }
+  &__price-box {
+    text-align: center;
+    color: $color-white;
+    margin-bottom: 8rem;
+  }
+  &__price-only {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+  }
+  &__price-value {
+    font-size: 6rem;
+    font-weight: 100;
   }
 }
