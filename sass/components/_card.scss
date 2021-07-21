@@ -16,6 +16,7 @@
     width: 100%;
     backface-visibility: hidden;
     border-radius: 3px;
+    overflow: hidden; // the image is overflowing the parent
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
 
     &--front {
