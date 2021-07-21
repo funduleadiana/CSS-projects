@@ -227,7 +227,9 @@ u.margin-bottom-medium {
   .card__picture {
     background-size: cover;
     height: 26rem;
-    background-blend-mode: soft-light; }
+    background-blend-mode: soft-light;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
     .card__picture--1 {
       background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/nat-5.jpg); }
     .card__picture--2 {
