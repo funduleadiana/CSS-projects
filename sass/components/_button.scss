@@ -1,3 +1,4 @@
+.btn,
 .btn:link,
 .btn:visited {
   text-transform: uppercase;
@@ -7,14 +8,23 @@
   border-radius: 100px;
   transition: all 0.2s;
   position: relative;
+  //Change for the button element
+  border: none;
+  cursor: pointer;
 }
 .btn:hover {
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba($color-black, 0.8);
 }
-.btn:active {
+.btn:active,
+.btn:focus {
+  outline: none;
   transform: translateY(-1px);
   box-shadow: 0 5px 10px rgba($color-black, 0.8);
+}
+.btn--green {
+  background-color: $color-primary;
+  color: $color-white;
 }
 
 .btn-white {
